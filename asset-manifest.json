@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/reactPortfolio/static/css/main.86c0f29c.chunk.css",
-    "main.js": "/reactPortfolio/static/js/main.3702101d.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.3702101d.chunk.js.map",
+    "main.js": "/reactPortfolio/static/js/main.d1a2e458.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.d1a2e458.chunk.js.map",
     "runtime-main.js": "/reactPortfolio/static/js/runtime-main.01400207.js",
     "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.01400207.js.map",
     "static/css/2.af3c1da9.chunk.css": "/reactPortfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.eeefa797.chunk.js": "/reactPortfolio/static/js/2.eeefa797.chunk.js",
-    "static/js/2.eeefa797.chunk.js.map": "/reactPortfolio/static/js/2.eeefa797.chunk.js.map",
+    "static/js/2.e6f4bca9.chunk.js": "/reactPortfolio/static/js/2.e6f4bca9.chunk.js",
+    "static/js/2.e6f4bca9.chunk.js.map": "/reactPortfolio/static/js/2.e6f4bca9.chunk.js.map",
     "index.html": "/reactPortfolio/index.html",
-    "precache-manifest.047c44fcd73977c065da0e521c72560b.js": "/reactPortfolio/precache-manifest.047c44fcd73977c065da0e521c72560b.js",
+    "precache-manifest.bdfb5771934310bf31e78fa3b8a4930e.js": "/reactPortfolio/precache-manifest.bdfb5771934310bf31e78fa3b8a4930e.js",
     "service-worker.js": "/reactPortfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/reactPortfolio/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.86c0f29c.chunk.css.map": "/reactPortfolio/static/css/main.86c0f29c.chunk.css.map",
-    "static/js/2.eeefa797.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.eeefa797.chunk.js.LICENSE.txt",
+    "static/js/2.e6f4bca9.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.e6f4bca9.chunk.js.LICENSE.txt",
     "static/media/Listivity.png": "/reactPortfolio/static/media/Listivity.3f62b586.png",
     "static/media/Listivity.gif": "/reactPortfolio/static/media/Listivity.697ace78.gif",
     "static/media/LittleGems.gif": "/reactPortfolio/static/media/LittleGems.9ed7eaa9.gif",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.01400207.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.eeefa797.chunk.js",
+    "static/js/2.e6f4bca9.chunk.js",
     "static/css/main.86c0f29c.chunk.css",
-    "static/js/main.3702101d.chunk.js"
+    "static/js/main.d1a2e458.chunk.js"
   ]
 }
