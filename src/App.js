@@ -9,6 +9,8 @@ import {
 import Home from './pages/home';
 import About from './pages/about';
 import Projects from './pages/projects';
+import Listivity from './pages/listivity';
+import LittleGems from './pages/littlegems';
 import Nav from './components/Nav';
 
 function App() {
@@ -28,6 +30,14 @@ function App() {
 
         <Route exact path="/projects">
           <Projects />
+        </Route>
+
+        <Route exact path="/listivity">
+          <Listivity />
+        </Route>
+
+        <Route exact path="/littlegems">
+          <LittleGems />
         </Route>
 
       </Switch>

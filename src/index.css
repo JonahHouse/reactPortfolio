@@ -12,6 +12,19 @@ code {
     monospace;
 }
 
+.navbar-brand {
+  font-size: 2em !important;
+  margin-right: 2em !important;
+}
+
+.nav-item {
+  font-size: 1.3em;
+}
+
+.active {
+  border-bottom: 1px solid #1E90FF;
+}
+
 .dropdown-item {
   width: 400px !important;
 }
@@ -21,8 +34,48 @@ code {
   margin-right: 10px important;
 }
 
+.jumbotron:first-child {
+  background-color: #1E90FF !important;
+  color: white;
+  padding: 8% 14% !important;
+}
+
+.jumbotron:first-child {
+  margin-bottom: 0;
+}
+
+.recentWork {
+  background-color: #343a40 !important;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1.5em;
+}
+
 p {
   margin-bottom: 2px !important;
+}
+
+.sg-card {
+  margin: 2% auto 0;
+  width: 50%;
+  border: none !important;
+}
+
+.sg-card h2 {
+  font-weight: 300;
+  font-size: 2em;
+  color: #59595c;
+  text-align: center !important;
+  padding: 20px !important;
+}
+
+.sg-card a {
+  margin: 20px 0;
+}
+
+.aboutContainer {
+  padding: 10% 10%;
 }
 
 @media screen and (max-width: 600px) {
