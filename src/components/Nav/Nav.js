@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/"><strong>Jonah</strong> Householder</a>
+        <a class="navbar-brand" href={process.env.PUBLIC_URL + "/"}><strong>Jonah</strong> Householder</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -14,14 +14,14 @@ const Nav = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href={process.env.PUBLIC_URL + "/"}>Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Projects
                   </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item d-flex align-items-center" href="/listivity">
+                <a class="dropdown-item d-flex align-items-center" href={process.env.PUBLIC_URL + "/listivity"}>
                   <img class="mr-3" src={listivity}></img>
                   <div className="overflow-auto">
                     <p className="font-weight-bold overflow-auto">Listivity</p>
@@ -29,7 +29,7 @@ const Nav = () => {
                   </div>
                 </a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item d-flex align-items-center" href="/littlegems">
+                <a class="dropdown-item d-flex align-items-center" href={process.env.PUBLIC_URL + "/littlegems"}>
                   <img class="mr-3" src={littlegems}></img>
                   <div className="overflow-auto">
                     <p className="font-weight-bold overflow-auto">Little Gems</p>
@@ -39,7 +39,7 @@ const Nav = () => {
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about">About</a>
+              <a class="nav-link" href={process.env.PUBLIC_URL + "/about"}>About</a>
             </li>
           </ul>
         </div>
