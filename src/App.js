@@ -20,23 +20,23 @@ function App() {
 
       <Switch>
 
-        <Route exact path="/">
+        <Route exact path={process.env.PUBLIC_URL + "/"}>
           <Home />
         </Route>
 
-        <Route exact path="/about">
+        <Route exact path={process.env.PUBLIC_URL + "/about"}>
           <About />
         </Route>
 
-        <Route exact path="/projects">
+        <Route exact path={process.env.PUBLIC_URL + "/projects"}>
           <Projects />
         </Route>
 
-        <Route exact path="/listivity">
+        <Route exact path={process.env.PUBLIC_URL + "/listivity"}>
           <Listivity />
         </Route>
 
-        <Route exact path="/littlegems">
+        <Route exact path={process.env.PUBLIC_URL + "/littlegems"}>
           <LittleGems />
         </Route>
 
